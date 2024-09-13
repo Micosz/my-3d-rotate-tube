@@ -14,9 +14,10 @@ button:focus {
   outline: none;
 }
 
+/* -------- Edit --------- */
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #775d0e;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -42,7 +43,8 @@ body {
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
-  color: #fff;
+  /* -------- Edit --------- */
+  color: #ca533e;
   font-size: 3.5em;
   white-space: nowrap;
   font-weight: bold;
@@ -56,23 +58,29 @@ body {
   font-style: initial;
 }
 
+/* -------- Edit --------- */
 .container .box span i:nth-child(1) {
-  color: #5c5fc4;
+  color: #32cec1;
 }
 
+/* -------- Edit --------- */
 .container .box span i:nth-child(2) {
-  color: #c4c15c;
+  color: #dbd98e;
 }
 
+/* -------- Edit --------- */
 @keyframes animate {
   0% {
     transform: perspective(500px) rotateX(0deg) rotate(5deg);
   }
-
+  50% {
+    transform: perspective(500px) rotateX(180deg) rotateY(180deg);
+  }
   100% {
     transform: perspective(50px) rotateX(360deg) rotate(5deg);
   }
 }
+
 
 /* -------- PSEUDO CLASS --------- */
 /* -------- MEDIA QUERY --------- */
